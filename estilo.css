@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.body{
+   
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   background: #05faa5;
+   background: -moz-linear-gradient(90deg, rgba(173, 185, 181, 0.933) 0%, rgba(111, 179, 161, 0.734) 14%, rgba(4, 37, 30, 0.74) 75%);
+   background: -webkit-linear-gradient(90deg, rgba(31, 48, 42, 0.933) 0%, rgba(202,228,221,0.7343312324929971) 14%, rgba(0,245,189,0.74) 75%);
+   background: linear-gradient(90deg, rgba(5,250,165,0.9332107843137255) 0%, rgba(202, 212, 228, 0.734)(0,245,189,0.74) 75%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#05faa5",endColorstr="#00f5bd",GradientType=1);
+}
+
+
+.contenedor{
+    margin-top: 30px;
+    background-color: skyblue;
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(108, 118, 226, 0.5);
+    padding-bottom: 50px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 25px;
+    font-size: 2.5em; /* Tamaño del texto */  
+    font-weight: bold; /* Negrita */
+    color: #185495; /* Color del texto */
+    text-shadow: -2px -3px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 3px 3px 3px #8f0d0d; /* Sombra de texto 3D */
+    animation: textAnimation 3s linear infinite; /* Animación */
+  }
+  p{
+     font-size:20px;
+  }
+.fotos{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto
+    
+}
+.redesociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redesociales a{
+    text-decoration: none;
+    margin: 10px;
+  }
+.redesociales i{
+    font-size: 37px;
+    color: #333; 
+
+  }
+
+  .redesociales i:hover{
+    color:rgb(219, 82, 105) 
+  
+  }
+h2{
+    text-align: center;
+}
+p{text-align: center;}
+
+
